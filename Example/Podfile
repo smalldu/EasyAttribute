@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyAtrribute_Example' do
+  pod 'EasyAtrribute', :path => '../'
+
+  target 'EasyAtrribute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
