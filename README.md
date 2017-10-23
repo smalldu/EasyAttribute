@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/EasyAtrribute.svg?style=flat)](http://cocoapods.org/pods/EasyAtrribute)
 
 ## Example
-
+![demo](https://github.com/smalldu/EasyAtrribute/blob/master/attribute.jpg)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
