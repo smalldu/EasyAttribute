@@ -5,23 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/EasyAtrribute.svg?style=flat)](http://cocoapods.org/pods/EasyAtrribute)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAtrribute.svg?style=flat)](http://cocoapods.org/pods/EasyAtrribute)
 
-## 目前支持的功能
-
-- 字体
-- 文字颜色
-- 背景色
-- 下划线
-- 下划线颜色
-- 行间距
-- 文字间距
-- 描边颜色
-- 描边宽度
-- 中划线
-- 中划线颜色
-- 设置图片
-
-以上基本可以满足日常开发需求。
-
 ## Example
 
 ![demo](https://github.com/smalldu/EasyAtrribute/blob/master/attribute.jpg)
@@ -73,6 +56,24 @@ label1.attributedText = "属性字"
         .fontSize(15).foreColor(UIColor.lightGray)
         .picture( #imageLiteral(resourceName: "warning") , bounds: CGRect(x: 0, y: 0, width: 13, height: 13), index: 0)
 ```
+
+## 目前支持的功能
+
+- 字体
+- 文字颜色
+- 背景色
+- 下划线
+- 下划线颜色
+- 行间距
+- 文字间距
+- 描边颜色
+- 描边宽度
+- 中划线
+- 中划线颜色
+- 设置图片
+
+以上基本可以满足日常开发需求。
+
 
 ## Requirements
 
