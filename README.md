@@ -66,7 +66,7 @@ label1.attributedText = "属性字"
 
 以上为示例图
 
-```
+```swift
 textView
       .removeAllAttribute()
       .appendAttributedText("温馨提示，谨防诈骗，跟您对话的可能是个骗子！！！ "
