@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/EasyAtrribute.svg?style=flat)](http://cocoapods.org/pods/EasyAtrribute)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAtrribute.svg?style=flat)](http://cocoapods.org/pods/EasyAtrribute)
 
+尴尬！ Attribute单词写错了~ 不改了。
+
 ## Example
 
 ![demo](https://github.com/smalldu/EasyAtrribute/blob/master/attribute.jpg)
@@ -66,6 +68,8 @@ label1.attributedText = "属性字"
 ![示例图](https://github.com/smalldu/EasyAtrribute/blob/master/sxz.gif)
 以上为示例图
 
+>记得先remove。
+
 ```swift
 textView
       .removeAllAttribute()
@@ -126,6 +130,8 @@ pod 'EasyAtrribute'
 ## Author
 
 smalldu, 363958265@qq.com
+
+[EasyAttribute 介绍](http://www.jianshu.com/p/99855bba3d0e)
 
 ## License
 
