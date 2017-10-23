@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyAtrribute'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'EasyAtrribute 是一个让我们可以轻松玩转属性字的工具'
 
 # This description is used to generate tags and improve search results.

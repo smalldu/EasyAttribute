@@ -100,6 +100,9 @@ public extension NSMutableAttributedString{
     self.addAttribute(.paragraphStyle, value: style, range: self.allRange())
     return self
   }
+  public func toEz()->EZAttributeString{
+    return EZAttributeString(attributeText: self)
+  }
 }
 
 

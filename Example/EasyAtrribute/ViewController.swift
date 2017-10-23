@@ -12,10 +12,38 @@ import EasyAtrribute
 class ViewController: UIViewController {
   
   @IBOutlet weak var label1: UILabel!
+  @IBOutlet weak var textView: EZTextView!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-  
+    
+    textView.isEditable = false
+    textView.isScrollEnabled = false
+    
+    textView
+      .removeAllAttribute()
+      .appendAttributedText("温馨提示，谨防诈骗，跟您对话的可能是个骗子！！！ "
+        .attribute()
+        .foreColor(UIColor.gray)
+        .fontSize(15)
+        .toEz())
+      .appendAttributedText(" 拉黑 ".attribute()
+        .foreColor(UIColor.blue)
+        .font(UIFont.boldSystemFont(ofSize: 17))
+        .toEz()
+        .addAction{
+          print("------这里是拉黑系统---------")
+      })
+      .appendAttributedText(" 举报 ".attribute()
+        .foreColor(UIColor.blue)
+        .font(UIFont.boldSystemFont(ofSize: 17))
+        .toEz()
+        .addAction{
+          print("------这里是举报系统---------")
+      })
+    
+    
+    
     label1.attributedText = "属性字"
       .attribute()
       .fontSize(18)

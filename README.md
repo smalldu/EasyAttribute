@@ -57,6 +57,39 @@ label1.attributedText = "属性字"
         .picture( UIImage(named: "warning"), bounds: CGRect(x: 0, y: 0, width: 13, height: 13), index: 0)
 ```
 
+
+通常也会有一些属性文本需要点击的时候，并非连接或者@someone，就普通的属性文本，这里也提供了支持
+同样采用链式调用的方式
+
+用到`TextKit`所以使用`TextView`比较方便
+
+
+以上为示例图
+
+```
+textView
+      .removeAllAttribute()
+      .appendAttributedText("温馨提示，谨防诈骗，跟您对话的可能是个骗子！！！ "
+        .attribute()
+        .foreColor(UIColor.gray)
+        .fontSize(15)
+        .toEz())
+      .appendAttributedText(" 拉黑 ".attribute()
+        .foreColor(UIColor.blue)
+        .font(UIFont.boldSystemFont(ofSize: 17))
+        .toEz()
+        .addAction{
+          print("------这里是拉黑系统---------")
+      })
+      .appendAttributedText(" 举报 ".attribute()
+        .foreColor(UIColor.blue)
+        .font(UIFont.boldSystemFont(ofSize: 17))
+        .toEz()
+        .addAction{
+          print("------这里是举报系统---------")
+      })
+```
+
 ## 目前支持的功能
 
 - 字体
@@ -71,6 +104,8 @@ label1.attributedText = "属性字"
 - 中划线
 - 中划线颜色
 - 设置图片
+- 使用EZTextView 支持属性文本点击事件处理
+
 
 以上基本可以满足日常开发需求。
 

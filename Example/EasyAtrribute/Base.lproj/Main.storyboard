@@ -27,20 +27,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="demo" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q19-ah-FEc" customClass="EZTextView" customModule="EasyAtrribute">
+                                <rect key="frame" x="25" y="170" width="325" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sqE-If-sll" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="84" id="6Tg-bl-5XE"/>
+                            <constraint firstItem="q19-ah-FEc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="25" id="HWc-SZ-oGK"/>
+                            <constraint firstAttribute="trailing" secondItem="q19-ah-FEc" secondAttribute="trailing" constant="25" id="PTA-ql-Cea"/>
+                            <constraint firstItem="q19-ah-FEc" firstAttribute="top" secondItem="sqE-If-sll" secondAttribute="bottom" constant="50" id="Pc0-F4-Uay"/>
                             <constraint firstAttribute="trailing" secondItem="sqE-If-sll" secondAttribute="trailing" constant="20" id="Zx7-dV-XIF"/>
                             <constraint firstItem="sqE-If-sll" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="gEy-BX-I5X"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="label1" destination="sqE-If-sll" id="3cH-WH-tGr"/>
+                        <outlet property="textView" destination="q19-ah-FEc" id="ogH-XB-Qx1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
