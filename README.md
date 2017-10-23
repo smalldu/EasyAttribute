@@ -63,7 +63,7 @@ label1.attributedText = "属性字"
 
 用到`TextKit`所以使用`TextView`比较方便
 
-
+![示例图](https://github.com/smalldu/EasyAtrribute/blob/master/sxz.gif)
 以上为示例图
 
 ```swift
