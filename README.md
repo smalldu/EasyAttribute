@@ -54,7 +54,7 @@ label1.attributedText = "属性字"
       "带图片提示的文本"
         .attribute()
         .fontSize(15).foreColor(UIColor.lightGray)
-        .picture( #imageLiteral(resourceName: "warning") , bounds: CGRect(x: 0, y: 0, width: 13, height: 13), index: 0)
+        .picture( UIImage(named: "warning"), bounds: CGRect(x: 0, y: 0, width: 13, height: 13), index: 0)
 ```
 
 ## 目前支持的功能

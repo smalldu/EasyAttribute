@@ -15,6 +15,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+  
     label1.attributedText = "属性字"
       .attribute()
       .fontSize(18)
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
       .underLine(.styleSingle)
       .underLineColor(UIColor.black)
       +
+      (
       " 测试一下"
         .attribute()
         .font(UIFont.boldSystemFont(ofSize: 20))
@@ -32,6 +34,7 @@ class ViewController: UIViewController {
       " ￥".attribute()
         .font(UIFont.boldSystemFont(ofSize: 23))
         .foreColor(UIColor.black)
+      ).lineSpace(5)
       +
       " 2000"
         .attribute()
