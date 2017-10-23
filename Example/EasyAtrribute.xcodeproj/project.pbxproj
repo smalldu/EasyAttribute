@@ -32,7 +32,7 @@
 		2E537A1371F446FCD174B255 /* Pods_EasyAtrribute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAtrribute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3896FFA6B3ECC12E960942E0 /* Pods-EasyAtrribute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAtrribute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAtrribute_Tests/Pods-EasyAtrribute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A39F61F080AC5270FB44101 /* Pods_EasyAtrribute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAtrribute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B6E12B6B9286C1A4C2D2ED5 /* EasyAtrribute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyAtrribute.podspec; path = ../EasyAtrribute.podspec; sourceTree = "<group>"; };
+		3B6E12B6B9286C1A4C2D2ED5 /* EasyAtrribute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyAtrribute.podspec; path = ../EasyAtrribute.podspec; sourceTree = "<group>"; };
 		521C48C60AACDCF2F96D5A3B /* Pods-EasyAtrribute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAtrribute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAtrribute_Example/Pods-EasyAtrribute_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EasyAtrribute_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAtrribute_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* EasyAtrribute_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAtrribute_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6950AE805C7BAB64B399C909 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6950AE805C7BAB64B399C909 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6B00E779B96C30D7B4B98E00 /* Pods-EasyAtrribute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAtrribute_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAtrribute_Tests/Pods-EasyAtrribute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4AA6841B56A0F0FA58B6E49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E4AA6841B56A0F0FA58B6E49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KY748RT68A;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KY748RT68A;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -458,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -517,7 +519,9 @@
 			baseConfigurationReference = 521C48C60AACDCF2F96D5A3B /* Pods-EasyAtrribute_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY748RT68A;
 				INFOPLIST_FILE = EasyAtrribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +536,9 @@
 			baseConfigurationReference = 25456F72648F2BAFD53FAB51 /* Pods-EasyAtrribute_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY748RT68A;
 				INFOPLIST_FILE = EasyAtrribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -546,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B00E779B96C30D7B4B98E00 /* Pods-EasyAtrribute_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KY748RT68A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3896FFA6B3ECC12E960942E0 /* Pods-EasyAtrribute_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KY748RT68A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

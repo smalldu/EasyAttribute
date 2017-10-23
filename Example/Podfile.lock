@@ -1,0 +1,16 @@
+PODS:
+  - EasyAtrribute (0.0.1)
+
+DEPENDENCIES:
+  - EasyAtrribute (from `../`)
+
+EXTERNAL SOURCES:
+  EasyAtrribute:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyAtrribute: 56b4ea8acda17dee112db15ff9789779694cba45
+
+PODFILE CHECKSUM: 57b19bf70b7dcbe43f42da4839c1b1de1b91bcb7
+
+COCOAPODS: 1.3.0.beta.2

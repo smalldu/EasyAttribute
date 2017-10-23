@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+`Xcode 9` 、`Swift 4` 、 `iOS 8`
+
 ## Installation
 
 EasyAtrribute is available through [CocoaPods](http://cocoapods.org). To install
