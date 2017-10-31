@@ -1,5 +1,5 @@
 PODS:
-  - EasyAtrribute (0.0.1)
+  - EasyAtrribute (0.0.2)
 
 DEPENDENCIES:
   - EasyAtrribute (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EasyAtrribute: 56b4ea8acda17dee112db15ff9789779694cba45
+  EasyAtrribute: f11a6578394cb2879d8bceec5f8b6b4b41e68557
 
 PODFILE CHECKSUM: 57b19bf70b7dcbe43f42da4839c1b1de1b91bcb7
 
